@@ -1,0 +1,171 @@
+html {
+     font-family: sans-serif;
+     text-size-adjust: none;
+     -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+     -ms-text-size-adjust: none;
+}
+ body {
+     font-size: 18px;
+     color: #333;
+     background: 0 0;
+}
+ .page {
+     background: #fff;
+     overflow: hidden;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     display: block;
+     margin: 0 auto;
+     padding: 0;
+     width: 100%;
+     position: relative;
+     background-color: transparent!important;
+}
+ .logo-wrapper{
+     float: left;
+     margin-top: 5px;
+     height: 65px;
+}
+ .logo-wrapper img {
+     height:100%;
+     width:auto;
+}
+ header{
+     height: 65px;
+     margin-bottom:0px;
+}
+.header-block{
+	font-size:10px;
+}
+ .footer {
+     background: #333;
+     padding: 2.8em 1.62em;
+}
+ .footer p {
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 0.9em;
+     line-height: 1.5em;
+}
+ .img-banner{
+     position: relative;
+     margin-bottom: 10px;
+	 width:100%;
+	 max-height:500px;
+	 overflow:hidden;
+}
+.img-banner img{
+   	 width:100%;
+}
+ .msg-block{
+     position:absolute;
+     font-size:25px;
+     font-weight:bold;
+     color:#fff;
+     top: 25%;
+     left: 5%;
+     width: 25%;
+     height: auto;
+     text-align: left;
+     margin: 0;
+     line-height:50px;
+}
+.msg-block-site{
+     position:absolute;
+     font-size:25px;
+     font-weight:bold;
+     color:#fff;
+     bottom: 5%;
+     text-align: center;
+     width: 100%;
+}
+ .os-block{
+    width: 300px;
+    margin: 20px auto;
+    //height:120px;
+}
+ .os-img{
+    position: relative;
+}
+ .os-prompt {
+    position:absolute;
+    top:5px;
+    margin-left:80px;
+    font-weight:bold;
+    font-size:18px;
+}
+ .os-img-right{
+    position: relative;
+}
+ .os-img-right img{
+    float:right;
+}
+ .os-prompt-left {
+    position:absolute;
+    top:5px;
+    margin-left:0px;
+    font-weight:bold;
+    font-size:18px;
+}
+ .os-prompt-left p{
+    font-size:1em;
+    font-weight:normal;
+}
+.note{ width:500px; margin:10px auto;font-size:14px;font-style:italic;text-align:center;padding:10px;}
+#ios, #android, #pc{display:none;}
+#androidlink{color:#000;background-color:rgb(255, 230, 0);font-size:13px;font-weight:bold;padding:5px;border-radius:5px;}
+.link-block{
+	margin: 30px auto;
+   	text-align: center;
+	font-size:18px;
+}
+#link-btn:link,#link-btn:visited {
+	width: 250px;
+	border: 1px solid #CCC;
+	padding:15px 20px;
+	box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+	text-decoration:none;
+	overflow:wrap;
+	color:#BBB;
+}
+#link-btn:hover, #link-btn:active {
+	background-color:#eee;
+    color:rgb(255, 230, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+ @media only screen and (min-width: 1000px){
+    .page {
+        width:980px;
+    }
+}
+ @media (max-width: 667px) and (min-width: 320px){
+	.logo-wrapper{
+		height: 55px;
+	}
+	header{
+		height: 55px;
+		margin-bottom:5px;
+	}
+	.msg-block{
+     position:absolute;
+     font-size:1em;
+     font-weight:bold;
+     color:#fff;
+     top: 20%;
+     left: 5%;
+     width: 32%;
+     height: auto;
+     text-align: center;
+     margin: 0;
+     line-height:1.2em;
+	}
+	.msg-block-site{
+		font-size:1em;
+		bottom: 5%;
+		text-align: center;
+	}
+	.note{ width:90%;}
+ }
+ 
